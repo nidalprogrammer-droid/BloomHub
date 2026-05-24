@@ -54,8 +54,8 @@ fi
 
 readonly GRADLE_USER_HOME
 
-exec "$APP_HOME/gradle/wrapper/gradle-wrapper.jar" \
-  -classpath "$APP_HOME/gradle/wrapper" \
+exec java \
+  -classpath "$APP_HOME/gradle/wrapper/gradle-wrapper.jar" \
   -Dorg.gradle.wrapper.properties="$APP_HOME/gradle/wrapper/gradle-wrapper.properties" \
   org.gradle.wrapper.GradleWrapperMain \
   "$@"
