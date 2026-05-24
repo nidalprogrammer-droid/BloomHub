@@ -1,0 +1,6 @@
+{
+  "name": "BloomHub",
+  "description": "Student organization and mental wellbeing app with minimal distractions and collaborative workspaces.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
